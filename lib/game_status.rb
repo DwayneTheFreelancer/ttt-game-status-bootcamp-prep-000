@@ -63,4 +63,8 @@ def winner(board)
   winner
 end
 
+def over?
+    draw? || won?
+  end
+
 winner(board)

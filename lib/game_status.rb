@@ -27,7 +27,6 @@ def won?
   result
 end
 
-
 def full?
   @board.reject{|i| ["X", "O"].include?(i)}.count == 0 ? true : false
 end

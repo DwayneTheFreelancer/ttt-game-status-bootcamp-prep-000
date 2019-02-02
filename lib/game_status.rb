@@ -63,8 +63,6 @@ def winner(board)
   winner
 end
 
-puts draw?(board)
-
 def over?(array3)
   if full?(array3) || !(won?(array3)) || draw?(array3)
     puts "GAME OVER"

@@ -49,3 +49,18 @@ def draw?(board)
     false
   end
 end
+
+def over(board)
+  winner = nil
+  WIN_COMBINATIONS.each do |combo|
+    if combo.all? {|idx| board[idx] == "X"}
+      winner = "X"
+    elsif combo.all? {|idx| board[idx] == "O"}
+      winner = "O"
+    else
+    end
+  end
+  winner
+end
+
+over(board)

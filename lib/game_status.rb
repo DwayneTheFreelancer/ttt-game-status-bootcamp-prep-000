@@ -72,6 +72,8 @@ def over?(board)
   elsif (!over?(board))
     puts "it ain't over till it's over baby!"
     return true
+  else 
+    return false
   end 
 end 
 

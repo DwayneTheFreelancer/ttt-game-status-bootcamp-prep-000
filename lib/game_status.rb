@@ -65,4 +65,4 @@ end
 
 def over?
     draw? || won?
-  end
+end

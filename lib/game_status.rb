@@ -66,9 +66,9 @@ def winner(board)
 end
 
 def over?(board)
-  if full?(board) || !(won?(board)) || draw?(board)
+  if draw?(board)
     puts "GAME OVER"
-    return false
+    return true
   else 
     puts "it ain't over till it's over baby!"
     return true 

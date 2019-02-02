@@ -69,7 +69,7 @@ def over?(board)
   if draw?(board)
     puts "GAME OVER"
     return true
-  else 
+  elsif (!over?(board))
     puts "it ain't over till it's over baby!"
     return true
   end 

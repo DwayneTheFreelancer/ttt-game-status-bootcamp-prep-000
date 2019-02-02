@@ -73,4 +73,6 @@ def over?(board)
     puts "it ain't over till it's over baby!"
     return true
   end 
-end  
+end 
+
+puts winner(board)

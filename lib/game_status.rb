@@ -71,6 +71,6 @@ def over?(board)
     return true
   else 
     puts "it ain't over till it's over baby!"
-    return true 
+    return false
   end 
 end  

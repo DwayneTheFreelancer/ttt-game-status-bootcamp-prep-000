@@ -63,4 +63,3 @@ def over(board)
   winner
 end
 
-over(board)

@@ -65,6 +65,12 @@ def winner(board)
   winner
 end
 
+def winner(board)
+  if winning_combo = won?(board)
+    board[winning_combo.first]
+  end
+end
+
 def over?(board)
   if full?(board) || !(won?(board)) || draw?(board)
     puts "GAME OVER"

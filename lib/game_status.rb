@@ -34,9 +34,7 @@ def won?(board)
   end
 end
 
-def position_taken?(board, index)
- !(board[index] == " " || board[index] == "" || board[index] == nil)
-end
+
 
 def full?(board)
   board.all? {|token| token == "X" || token == "O"}

@@ -66,12 +66,12 @@ def winner(board)
 end
 
 def over?(board)
-  if draw?(board)
-    puts "GAME OVER"
-    return true
-  else
-    puts "it ain't over till it's over baby!"
-    return true
-  end 
+  # if draw?(board)
+  #   puts "GAME OVER"
+  #   return true
+  # else
+  #   puts "it ain't over till it's over baby!"
+  #   return true
+  # end 
 end 
 

@@ -73,5 +73,12 @@ def over?(board)
   #   puts "it ain't over till it's over baby!"
   #   return true
   # end 
+  if won?(board) || full?(board) || draw?(board)
+    puts "GAME OVER"
+    return true
+  else
+    puts "it ain't over till it's over baby!"
+    return false
+  end
 end 
 

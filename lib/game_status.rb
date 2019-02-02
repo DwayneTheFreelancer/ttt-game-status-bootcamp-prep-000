@@ -66,5 +66,3 @@ end
 def over?
     draw? || won?
   end
-
-winner(board)
